@@ -3,6 +3,17 @@ import pandas as pd
 import os
 from knapsack import *
 
+st.markdown(
+        """
+    <style>
+    [data-testid="stMetricValue"] {
+        font-size: 25px;
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
+
 st.title("Solve the Knapsack Problem")
 ortools_url = 'https://developers.google.com/optimization/pack/knapsack?hl=en'
 github_url = 'https://github.com/a-d-camp/knapsack'
