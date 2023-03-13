@@ -1,4 +1,6 @@
 from knapsack import *
+import pickle
+import pandas as pd
 
 # run all
 pth = './data/knapsack-data'
