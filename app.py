@@ -23,7 +23,7 @@ st.markdown("Built by [Andrew Camp](%s) &nbsp; | &nbsp; Solved with [Google OR T
 df_summary = pd.read_csv('./data/knapsack_summary.csv')
 
 # download summary
-@st.cache_data
+@st.cache
 def convert_df(df):
     return df.to_csv().encode('utf-8')
 
