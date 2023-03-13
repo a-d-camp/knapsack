@@ -1,6 +1,4 @@
 pandas
 ortools
-time
-os
 pickle
 streamlit
